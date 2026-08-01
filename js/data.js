@@ -21,8 +21,8 @@ const CONFIG = {
   // -----------------------------------------------------------
   metas: [
     { id: "abates", nome: "Abates de Traficantes", atual: 1, meta: 15, icone: "🎯" },
-    { id: "prisoes", nome: "Prisões", atual: 11, meta: 25, icone: "🚔" },
-    { id: "treinos", nome: "Treinos", atual: 0, meta: 20, icone: "🏋️" }
+    { id: "prisoes", nome: "Prisões", atual: 21, meta: 25, icone: "🚔" },
+    { id: "treinos", nome: "Treinos", atual: 13, meta: 20, icone: "🏋️" }
   ],
 
   // -----------------------------------------------------------
@@ -58,6 +58,18 @@ const CONFIG = {
   //      { categoria: "info", arquivoAntes: "fotos/antes1.png", arquivoDepois: "fotos/depois1.png", data: "18/07/2026", descricao: "Comprovação de abates e prisões" },
   // -----------------------------------------------------------
   prints: [
+    { categoria: "treinos", arquivo: "fotos/treino-01-08-1.png", data: "01/08/2026", descricao: "Treino com Tenente RaFa #1" },
+    { categoria: "treinos", arquivo: "fotos/treino-01-08-2.png", data: "01/08/2026", descricao: "Treino com Tenente RaFa #2" },
+    { categoria: "treinos", arquivo: "fotos/treino-01-08-3.png", data: "01/08/2026", descricao: "Treino com Tenente RaFa #3" },
+    { categoria: "treinos", arquivo: "fotos/treino-01-08-4.png", data: "01/08/2026", descricao: "Treino com Tenente RaFa #4" },
+    { categoria: "treinos", arquivo: "fotos/treino-01-08-5.png", data: "01/08/2026", descricao: "Treino com Tenente RaFa #5" },
+    { categoria: "treinos", arquivo: "fotos/treino-01-08-6.png", data: "01/08/2026", descricao: "Treino com Tenente RaFa #6" },
+    { categoria: "treinos", arquivo: "fotos/treino-01-08-7.png", data: "01/08/2026", descricao: "Treino com Tenente RaFa #7" },
+    { categoria: "treinos", arquivo: "fotos/treino-01-08-8.png", data: "01/08/2026", descricao: "Treino com Tenente RaFa #8 - 8 treinos concluídos" },
+    { categoria: "treinos", arquivo: "fotos/bonus-treino-01-08.png", data: "01/08/2026", descricao: "Bônus pós-treino do Tenente RaFa: +5 treinos extras e +10 procurados presos" },
+
+    { categoria: "destaques", arquivo: "fotos/destaque-treino-01-08.png", data: "01/08/2026", descricao: "Destaque do treino com o Tenente RaFa (Wesley Wins)" },
+
     { categoria: "info", arquivoAntes: "fotos/info-antes-4.png", arquivoDepois: "fotos/info-depois-4.png", data: "01/08/2026", descricao: "Início da nova semana de meta: Abates de Traficantes 330 → 331, Prisões efetuadas 357 → 368" },
 
     { categoria: "destaques", arquivo: "fotos/destaque-kill-ltrf.png", data: "22/07/2026", descricao: "Abate do líder da facção LTRF (TOMA]RD_VG_BDJ[LTRF)" },
