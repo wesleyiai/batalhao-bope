@@ -20,8 +20,8 @@ const CONFIG = {
   // Para mudar o objetivo, troque o número "meta".
   // -----------------------------------------------------------
   metas: [
-    { id: "abates", nome: "Abates de Traficantes", atual: 124, meta: 15, icone: "🎯" },
-    { id: "prisoes", nome: "Prisões", atual: 177, meta: 25, icone: "🚔" },
+    { id: "abates", nome: "Abates de Traficantes", atual: 1, meta: 15, icone: "🎯" },
+    { id: "prisoes", nome: "Prisões", atual: 11, meta: 25, icone: "🚔" },
     { id: "treinos", nome: "Treinos", atual: 20, meta: 20, icone: "🏋️" }
   ],
 
@@ -80,6 +80,8 @@ const CONFIG = {
     { categoria: "treinos", arquivo: "fotos/treino-21-07-15.png", data: "21/07/2026", descricao: "Treino com Tenente Coronel Skinka #15 - 15 treinos concluídos, meta batida!" },
 
     { categoria: "info", arquivoAntes: "fotos/info-antes-2.png", arquivoDepois: "fotos/info-depois-3.png", data: "18/07/2026 a 21/07/2026", descricao: "Comprovação de progresso: Abates de Traficantes 91 → 215, Prisões efetuadas 137 → 314" },
+
+    { categoria: "info", arquivoAntes: "fotos/info-antes-4.png", arquivoDepois: "fotos/info-depois-4.png", data: "01/08/2026", descricao: "Início da nova semana de meta: Abates de Traficantes 330 → 331, Prisões efetuadas 357 → 368" },
 
     { categoria: "destaques", arquivo: "fotos/destaque-kill-ltrf.png", data: "22/07/2026", descricao: "Abate do líder da facção LTRF (TOMA]RD_VG_BDJ[LTRF)" },
 
