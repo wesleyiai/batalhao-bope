@@ -14,6 +14,9 @@ const CONFIG = {
   // Seu nome / patente (aparece no site)
   efetivo: "[GT]Wesley1BTL",
 
+  // Sua patente (aparece destacada no crachá acima do nome)
+  patente: "SOLDADO",
+
   // -----------------------------------------------------------
   // SUAS METAS
   // Para atualizar seu progresso, troque apenas o número "atual".

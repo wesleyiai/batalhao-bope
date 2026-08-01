@@ -64,6 +64,23 @@ header {
   100% { transform: translate(0,0) rotate(0deg); }
 }
 
+header::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 320px;
+  height: 320px;
+  transform: translate(-50%, -50%);
+  background-image: url("assets/emblema-choque-1btl.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.045;
+  filter: grayscale(1) contrast(1.2);
+  pointer-events: none;
+}
+
 header::after {
   content: "";
   position: absolute;
@@ -253,17 +270,96 @@ header::after {
   text-transform: uppercase;
 }
 
-.efetivo-tag {
-  display: inline-block;
-  margin-top: 16px;
-  padding: 6px 16px;
-  background: var(--bg-card);
+/* CRACHÁ DE IDENTIFICAÇÃO */
+.id-badge {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 18px;
+  padding: 10px 20px;
+  max-width: calc(100vw - 40px);
+  background: linear-gradient(135deg, #241a15 0%, #14100e 55%, #201713 100%);
   border: 1px solid var(--gold);
   border-radius: var(--radius-tag);
-  font-family: 'Share Tech Mono', monospace;
-  font-size: 12px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.06), 0 6px 20px rgba(0,0,0,0.5), 0 0 22px rgba(212,175,55,0.15);
+  animation: badge-glow 3.6s ease-in-out infinite;
+}
+
+@keyframes badge-glow {
+  0%, 100% { box-shadow: inset 0 1px 0 rgba(255,255,255,0.06), 0 6px 20px rgba(0,0,0,0.5), 0 0 16px rgba(212,175,55,0.12); }
+  50% { box-shadow: inset 0 1px 0 rgba(255,255,255,0.06), 0 6px 20px rgba(0,0,0,0.5), 0 0 26px rgba(212,175,55,0.28); }
+}
+
+.rivet {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #f3e0a0, var(--gold) 70%);
+  box-shadow: 0 0 4px rgba(212,175,55,0.7);
+}
+
+.rivet-tl { top: 4px; left: 4px; }
+.rivet-tr { top: 4px; right: 4px; }
+.rivet-bl { bottom: 4px; left: 4px; }
+.rivet-br { bottom: 4px; right: 4px; }
+
+.id-badge-rank {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  white-space: nowrap;
+}
+
+.id-badge-chevron {
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--cyan);
+  text-shadow: 0 0 6px var(--cyan-dim);
+}
+
+.id-badge-patente {
+  font-family: 'Oswald', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
   color: var(--gold);
-  letter-spacing: 1px;
+  text-shadow: 0 0 8px rgba(212,175,55,0.4);
+}
+
+.id-badge-divider {
+  width: 1px;
+  align-self: stretch;
+  background: linear-gradient(180deg, transparent, var(--border), transparent);
+}
+
+.id-badge-id {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+  min-width: 0;
+}
+
+.id-badge-label {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.id-badge-nome {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.5px;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* RESUMO GERAL */
@@ -384,6 +480,46 @@ h2.secao-titulo {
 .meta-card:hover {
   border-color: #3a3f49;
   transform: translateY(-2px);
+}
+
+/* mira de "target-lock" nos cantos ao passar o mouse/tocar */
+.meta-card::after {
+  content: "";
+  position: absolute;
+  bottom: 6px; right: 6px;
+  width: 12px; height: 12px;
+  border: 2px solid var(--cyan);
+  border-left: none;
+  border-top: none;
+  opacity: 0;
+  transition: opacity 0.25s;
+  pointer-events: none;
+}
+
+.meta-card:hover::after {
+  opacity: 0.85;
+  box-shadow: 0 0 6px var(--cyan-dim);
+}
+
+.print-card::before,
+.print-card::after {
+  content: "";
+  position: absolute;
+  width: 12px; height: 12px;
+  border: 2px solid var(--cyan);
+  opacity: 0;
+  transition: opacity 0.25s;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.print-card::before { top: 6px; left: 6px; border-right: none; border-bottom: none; }
+.print-card::after { bottom: 6px; right: 6px; border-left: none; border-top: none; }
+
+.print-card:hover::before,
+.print-card:hover::after {
+  opacity: 0.85;
+  box-shadow: 0 0 6px var(--cyan-dim);
 }
 
 .meta-header {
@@ -766,9 +902,24 @@ footer {
 
 @media (max-width: 480px) {
   header { padding: 26px 16px 20px; }
+  header::before { width: 220px; height: 220px; }
   .emblema-wrap { width: 62px; height: 62px; }
   .emblema-wrap::before { width: 100px; height: 100px; }
   .emblema-wrap::after { width: 80px; height: 80px; }
   .hero-banner { max-width: 220px; margin-top: -8px; }
   .hero-banner-img { max-height: 110px; }
+
+  .id-badge {
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px 18px;
+    max-width: calc(100vw - 32px);
+  }
+  .id-badge-divider { width: 60%; height: 1px; align-self: center; background: linear-gradient(90deg, transparent, var(--border), transparent); }
+  .id-badge-rank, .id-badge-id { align-items: center; }
+  .id-badge-nome { font-size: 14px; }
+}
+
+@media (max-width: 360px) {
+  .id-badge-nome { font-size: 12.5px; }
 }

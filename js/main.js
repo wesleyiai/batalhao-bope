@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("batalhao-nome").textContent = CONFIG.batalhao;
   document.getElementById("batalhao-subtitulo").textContent = CONFIG.subtitulo;
   document.getElementById("efetivo-nome").textContent = CONFIG.efetivo;
+  document.getElementById("efetivo-patente").textContent = CONFIG.patente || "";
 
   renderMetas();
   renderResumo();
