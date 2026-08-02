@@ -23,8 +23,8 @@ const CONFIG = {
   // Para mudar o objetivo, troque o número "meta".
   // -----------------------------------------------------------
   metas: [
-    { id: "abates", nome: "Abates de Traficantes", atual: 1, meta: 15, icone: "🎯" },
-    { id: "prisoes", nome: "Prisões", atual: 21, meta: 25, icone: "🚔" },
+    { id: "abates", nome: "Abates de Traficantes", atual: 7, meta: 15, icone: "🎯" },
+    { id: "prisoes", nome: "Prisões", atual: 23, meta: 25, icone: "🚔" },
     { id: "treinos", nome: "Treinos", atual: 13, meta: 20, icone: "🏋️" }
   ],
 
@@ -74,6 +74,8 @@ const CONFIG = {
     { categoria: "destaques", arquivo: "fotos/destaque-treino-01-08.png", data: "01/08/2026", descricao: "Destaque do treino com o Tenente RaFa (Wesley Wins)" },
 
     { categoria: "info", arquivoAntes: "fotos/info-antes-4.png", arquivoDepois: "fotos/info-depois-4.png", data: "01/08/2026", descricao: "Início da nova semana de meta: Abates de Traficantes 330 → 331, Prisões efetuadas 357 → 368" },
+
+    { categoria: "info", arquivoAntes: "fotos/info-depois-4.png", arquivoDepois: "fotos/info-depois-5.png", data: "01/08/2026", descricao: "Abates de Traficantes 331 → 337, Prisões efetuadas 368 → 370" },
 
     { categoria: "destaques", arquivo: "fotos/destaque-kill-ltrf.png", data: "22/07/2026", descricao: "Abate do líder da facção LTRF (TOMA]RD_VG_BDJ[LTRF)" },
 
