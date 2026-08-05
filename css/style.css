@@ -362,6 +362,37 @@ header::after {
   text-overflow: ellipsis;
 }
 
+/* META DA SEMANA */
+.meta-semana-banner {
+  margin: 26px 0;
+  background: linear-gradient(90deg, rgba(143,23,23,0.25), rgba(220,38,38,0.12));
+  border: 1px solid var(--red);
+  border-left: 4px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 16px 24px;
+  text-align: center;
+  box-shadow: 0 0 18px rgba(220,38,38,0.15);
+}
+
+.meta-semana-label {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gold);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.meta-semana-datas {
+  font-family: 'Oswald', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(220,38,38,0.4);
+}
+
 /* RESUMO GERAL */
 .resumo {
   margin: 30px 0;
