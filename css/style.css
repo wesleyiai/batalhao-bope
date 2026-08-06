@@ -858,6 +858,128 @@ footer {
 .corner-bl { bottom: 4px; left: 4px; border-right: none; border-top: none; }
 .corner-br { bottom: 4px; right: 4px; border-left: none; border-top: none; }
 
+/* BANNER DE PROMOÇÃO */
+.promocao-banner {
+  position: relative;
+  max-width: 720px;
+  margin: 26px auto 0;
+  padding: 18px 24px 20px;
+  background: linear-gradient(135deg, #241a15 0%, #14100e 55%, #201713 100%);
+  border: 1px solid var(--gold);
+  border-radius: var(--radius);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.06), 0 8px 24px rgba(0,0,0,0.4), 0 0 24px rgba(212,175,55,0.18);
+  overflow: hidden;
+  animation: badge-glow 3.6s ease-in-out infinite;
+}
+
+.promocao-rivet {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #f3e0a0, var(--gold) 70%);
+  box-shadow: 0 0 4px rgba(212,175,55,0.7);
+}
+
+.promocao-rivet-tl { top: 6px; left: 6px; }
+.promocao-rivet-tr { top: 6px; right: 6px; }
+.promocao-rivet-bl { bottom: 6px; left: 6px; }
+.promocao-rivet-br { bottom: 6px; right: 6px; }
+
+.promocao-shine {
+  position: absolute;
+  top: 0;
+  left: -60%;
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(115deg, transparent, rgba(212,175,55,0.16), transparent);
+  animation: promocao-sweep 5s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes promocao-sweep {
+  0% { left: -60%; }
+  55%, 100% { left: 130%; }
+}
+
+.promocao-selo {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--gold);
+  text-shadow: 0 0 10px rgba(212,175,55,0.35);
+  margin-bottom: 14px;
+}
+
+.promocao-corpo {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.promocao-chevron {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: var(--cyan);
+  text-shadow: 0 0 8px var(--cyan-dim);
+  flex-shrink: 0;
+}
+
+.promocao-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 200px;
+  flex: 1;
+}
+
+.promocao-rank {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #fff;
+  text-shadow: 0 0 12px rgba(212,175,55,0.4);
+}
+
+.promocao-desc {
+  font-size: 14px;
+  color: var(--text-dim);
+  line-height: 1.4;
+}
+
+.promocao-desc strong {
+  color: var(--text);
+}
+
+.promocao-data {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: var(--gold);
+  margin-top: 2px;
+}
+
+.promocao-img {
+  max-width: 260px;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-tag);
+  background: #000;
+}
+
+@media (max-width: 480px) {
+  .promocao-corpo { flex-direction: column; text-align: center; }
+  .promocao-info { align-items: center; }
+}
+
 /* CAPA DE ABATES */
 .capa-abates {
   max-width: 720px;

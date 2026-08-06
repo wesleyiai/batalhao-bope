@@ -15,7 +15,7 @@ const CONFIG = {
   efetivo: "[GT]Wesley1BTL",
 
   // Sua patente (aparece destacada no crachá acima do nome)
-  patente: "SOLDADO",
+  patente: "SARGENTO",
 
   // -----------------------------------------------------------
   // SEMANA DA META
@@ -31,9 +31,9 @@ const CONFIG = {
   // Para mudar o objetivo, troque o número "meta".
   // -----------------------------------------------------------
   metas: [
-    { id: "abates", nome: "Abates de Traficantes", atual: 4, meta: 15, icone: "🎯" },
-    { id: "prisoes", nome: "Prisões", atual: 52, meta: 25, icone: "🚔" },
-    { id: "treinos", nome: "Treinos", atual: 13, meta: 20, icone: "🏋️" }
+    { id: "abates", nome: "Abates de Traficantes", atual: 83, meta: 15, icone: "🎯" },
+    { id: "prisoes", nome: "Prisões", atual: 68, meta: 25, icone: "🚔" },
+    { id: "treinos", nome: "Treinos", atual: 16, meta: 20, icone: "🏋️" }
   ],
 
   // -----------------------------------------------------------
@@ -86,6 +86,16 @@ const CONFIG = {
     { categoria: "destaques", arquivo: "fotos/destaque-treino-04-08-2.png", data: "04/08/2026", descricao: "Destaque do treino com o Tenente RaFa (Wesley Wins) #2" },
     { categoria: "destaques", arquivo: "fotos/destaque-treino-04-08-3.png", data: "04/08/2026", descricao: "Destaque do treino com o Tenente RaFa (Wesley Wins) #3" },
 
-    { categoria: "info", arquivoAntes: "fotos/info-depois-5.png", arquivoDepois: "fotos/info-depois-6.png", data: "04/08/2026", descricao: "Início da nova semana de meta (03/08 a 08/08): Abates de Traficantes 337 → 341, Prisões efetuadas 370 → 417" }
+    { categoria: "treinos", arquivo: "fotos/treino-05-08-1.png", data: "05/08/2026", descricao: "Treino com Tenente Coronel skinka #1" },
+    { categoria: "treinos", arquivo: "fotos/treino-05-08-2.png", data: "05/08/2026", descricao: "Treino com Tenente Coronel skinka #2" },
+    { categoria: "treinos", arquivo: "fotos/treino-05-08-3.png", data: "05/08/2026", descricao: "Treino com Tenente Coronel skinka #3" },
+    { categoria: "treinos", arquivo: "fotos/treino-05-08-4.png", data: "05/08/2026", descricao: "Treino com Tenente Coronel skinka #4" },
+    { categoria: "treinos", arquivo: "fotos/treino-05-08-5.png", data: "05/08/2026", descricao: "Treino com Tenente Coronel skinka #5" },
+    { categoria: "treinos", arquivo: "fotos/treino-05-08-6.png", data: "05/08/2026", descricao: "Treino com Tenente Coronel skinka #6" },
+    { categoria: "treinos", arquivo: "fotos/treino-05-08-7.png", data: "05/08/2026", descricao: "Treino com Tenente Coronel skinka #7" },
+    { categoria: "treinos", arquivo: "fotos/treino-05-08-8.png", data: "05/08/2026", descricao: "Treino com Tenente Coronel skinka #8 - 8 treinos concluídos" },
+
+    { categoria: "info", arquivoAntes: "fotos/info-depois-5.png", arquivoDepois: "fotos/info-depois-6.png", data: "04/08/2026", descricao: "Início da nova semana de meta (03/08 a 08/08): Abates de Traficantes 337 → 341, Prisões efetuadas 370 → 417" },
+    { categoria: "info", arquivoAntes: "fotos/info-depois-6.png", arquivoDepois: "fotos/info-depois-7.png", data: "06/08/2026", descricao: "Atualização da semana (03/08 a 08/08): Abates de Traficantes 341 → 420, Prisões efetuadas 417 → 438" }
   ]
 };
