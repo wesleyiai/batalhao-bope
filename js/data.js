@@ -31,9 +31,9 @@ const CONFIG = {
   // Para mudar o objetivo, troque o número "meta".
   // -----------------------------------------------------------
   metas: [
-    { id: "abates", nome: "Abates de Traficantes", atual: 83, meta: 15, icone: "🎯" },
-    { id: "prisoes", nome: "Prisões", atual: 68, meta: 25, icone: "🚔" },
-    { id: "treinos", nome: "Treinos", atual: 16, meta: 20, icone: "🏋️" }
+    { id: "abates", nome: "Abates de Traficantes", atual: 96, meta: 15, icone: "🎯" },
+    { id: "prisoes", nome: "Prisões", atual: 78, meta: 25, icone: "🚔" },
+    { id: "treinos", nome: "Treinos", atual: 26, meta: 20, icone: "🏋️" }
   ],
 
   // -----------------------------------------------------------
@@ -95,7 +95,20 @@ const CONFIG = {
     { categoria: "treinos", arquivo: "fotos/treino-05-08-7.png", data: "05/08/2026", descricao: "Treino com Tenente Coronel skinka #7" },
     { categoria: "treinos", arquivo: "fotos/treino-05-08-8.png", data: "05/08/2026", descricao: "Treino com Tenente Coronel skinka #8 - 8 treinos concluídos" },
 
+    { categoria: "treinos", arquivo: "fotos/treino-07-08-resto-1.png", data: "07/08/2026", descricao: "Treino com Tenente Resto #1" },
+    { categoria: "treinos", arquivo: "fotos/treino-07-08-resto-2.png", data: "07/08/2026", descricao: "Treino com Tenente Resto #2" },
+    { categoria: "treinos", arquivo: "fotos/treino-07-08-resto-3.png", data: "07/08/2026", descricao: "Treino com Tenente Resto #3" },
+    { categoria: "treinos", arquivo: "fotos/treino-07-08-resto-4.png", data: "07/08/2026", descricao: "Treino com Tenente Resto #4" },
+    { categoria: "treinos", arquivo: "fotos/treino-07-08-resto-5.png", data: "07/08/2026", descricao: "Treino com Tenente Resto #5 - 5 treinos concluídos" },
+
+    { categoria: "treinos", arquivo: "fotos/treino-07-08-jn-1.png", data: "07/08/2026", descricao: "Treino com Tenente Jn #1" },
+    { categoria: "treinos", arquivo: "fotos/treino-07-08-jn-2.png", data: "07/08/2026", descricao: "Treino com Tenente Jn #2" },
+    { categoria: "treinos", arquivo: "fotos/treino-07-08-jn-3.png", data: "07/08/2026", descricao: "Treino com Tenente Jn #3" },
+    { categoria: "treinos", arquivo: "fotos/treino-07-08-jn-4.png", data: "07/08/2026", descricao: "Treino com Tenente Jn #4" },
+    { categoria: "treinos", arquivo: "fotos/treino-07-08-jn-5.png", data: "07/08/2026", descricao: "Treino com Tenente Jn #5 - 5 treinos concluídos" },
+
     { categoria: "info", arquivoAntes: "fotos/info-depois-5.png", arquivoDepois: "fotos/info-depois-6.png", data: "04/08/2026", descricao: "Início da nova semana de meta (03/08 a 08/08): Abates de Traficantes 337 → 341, Prisões efetuadas 370 → 417" },
-    { categoria: "info", arquivoAntes: "fotos/info-depois-6.png", arquivoDepois: "fotos/info-depois-7.png", data: "06/08/2026", descricao: "Atualização da semana (03/08 a 08/08): Abates de Traficantes 341 → 420, Prisões efetuadas 417 → 438" }
+    { categoria: "info", arquivoAntes: "fotos/info-depois-6.png", arquivoDepois: "fotos/info-depois-7.png", data: "06/08/2026", descricao: "Atualização da semana (03/08 a 08/08): Abates de Traficantes 341 → 420, Prisões efetuadas 417 → 438" },
+    { categoria: "info", arquivoAntes: "fotos/info-depois-7.png", arquivoDepois: "fotos/info-depois-8.png", data: "07/08/2026", descricao: "Atualização da semana (03/08 a 08/08): Abates de Traficantes 420 → 433, Prisões efetuadas 438 → 448" }
   ]
 };
