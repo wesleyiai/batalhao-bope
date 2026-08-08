@@ -107,8 +107,6 @@ const CONFIG = {
     { categoria: "treinos", arquivo: "fotos/treino-07-08-jn-4.png", data: "07/08/2026", descricao: "Treino com Tenente Jn #4" },
     { categoria: "treinos", arquivo: "fotos/treino-07-08-jn-5.png", data: "07/08/2026", descricao: "Treino com Tenente Jn #5 - 5 treinos concluídos" },
 
-    { categoria: "info", arquivoAntes: "fotos/info-depois-5.png", arquivoDepois: "fotos/info-depois-6.png", data: "04/08/2026", descricao: "Início da nova semana de meta (03/08 a 08/08): Abates de Traficantes 337 → 341, Prisões efetuadas 370 → 417" },
-    { categoria: "info", arquivoAntes: "fotos/info-depois-6.png", arquivoDepois: "fotos/info-depois-7.png", data: "06/08/2026", descricao: "Atualização da semana (03/08 a 08/08): Abates de Traficantes 341 → 420, Prisões efetuadas 417 → 438" },
     { categoria: "info", arquivoAntes: "fotos/info-depois-7.png", arquivoDepois: "fotos/info-depois-8.png", data: "07/08/2026", descricao: "Atualização da semana (03/08 a 08/08): Abates de Traficantes 420 → 433, Prisões efetuadas 438 → 448" }
   ]
 };
