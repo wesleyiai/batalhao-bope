@@ -31,8 +31,8 @@ const CONFIG = {
   // Para mudar o objetivo, troque o número "meta".
   // -----------------------------------------------------------
   metas: [
-    { id: "abates", nome: "Abates de Traficantes", atual: 96, meta: 15, icone: "🎯" },
-    { id: "prisoes", nome: "Prisões", atual: 78, meta: 25, icone: "🚔" },
+    { id: "abates", nome: "Abates de Traficantes", atual: 101, meta: 15, icone: "🎯" },
+    { id: "prisoes", nome: "Prisões", atual: 86, meta: 25, icone: "🚔" },
     { id: "treinos", nome: "Treinos", atual: 26, meta: 20, icone: "🏋️" }
   ],
 
@@ -107,6 +107,7 @@ const CONFIG = {
     { categoria: "treinos", arquivo: "fotos/treino-07-08-jn-4.png", data: "07/08/2026", descricao: "Treino com Tenente Jn #4" },
     { categoria: "treinos", arquivo: "fotos/treino-07-08-jn-5.png", data: "07/08/2026", descricao: "Treino com Tenente Jn #5 - 5 treinos concluídos" },
 
-    { categoria: "info", arquivoAntes: "fotos/info-depois-7.png", arquivoDepois: "fotos/info-depois-8.png", data: "07/08/2026", descricao: "Atualização da semana (03/08 a 08/08): Abates de Traficantes 420 → 433, Prisões efetuadas 438 → 448" }
+    { categoria: "info", arquivoAntes: "fotos/info-depois-7.png", arquivoDepois: "fotos/info-depois-8.png", data: "07/08/2026", descricao: "Atualização da semana (03/08 a 08/08): Abates de Traficantes 420 → 433, Prisões efetuadas 438 → 448" },
+    { categoria: "info", arquivoAntes: "fotos/info-depois-8.png", arquivoDepois: "fotos/info-depois-9.png", data: "08/08/2026", descricao: "Atualização da semana (03/08 a 08/08): Abates de Traficantes 433 → 438, Prisões efetuadas 448 → 456" }
   ]
 };
