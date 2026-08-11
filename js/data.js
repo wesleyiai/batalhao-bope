@@ -6,16 +6,16 @@
 
 const CONFIG = {
   // Nome do batalhão (aparece no topo do site)
-  batalhao: "BOPE",
+  batalhao: "BATALHÃO BOPE",
 
   // Subtítulo (aparece embaixo do nome do batalhão)
   subtitulo: "Painel de Metas — Fase de Teste",
 
   // Seu nome / patente (aparece no site)
-  efetivo: "[GT]Wesley1BTL",
+  efetivo: "[GT]Wesley",
 
   // Sua patente (aparece destacada no crachá acima do nome)
-  patente: "ASPIRANTE (EM TESTE)",
+  patente: "SOLDADO",
 
   // -----------------------------------------------------------
   // SEMANA DA META
@@ -71,6 +71,5 @@ const CONFIG = {
   //      { categoria: "info", arquivoAntes: "fotos/antes1.png", arquivoDepois: "fotos/depois1.png", data: "18/07/2026", descricao: "Comprovação de abates e prisões" },
   // -----------------------------------------------------------
   prints: [
-    { categoria: "info", arquivoAntes: "fotos/info-antes-10-08.png", arquivoDepois: "fotos/info-antes-10-08.png", data: "10/08/2026", descricao: "Print de início do teste no BOPE (10/08 a 15/08): Abates de Traficantes 438, Prisões efetuadas 476 — baseline para a próxima atualização" }
   ]
 };
