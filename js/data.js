@@ -68,8 +68,6 @@ const CONFIG = {
   //      { categoria: "info", arquivoAntes: "fotos/antes1.png", arquivoDepois: "fotos/depois1.png", data: "18/07/2026", descricao: "Comprovação de abates e prisões" },
   // -----------------------------------------------------------
   prints: [
-    { categoria: "destaques", arquivo: "fotos/destaque-kill-ltrf.png", data: "22/07/2026", descricao: "Abate do líder da facção LTRF (TOMA]RD_VG_BDJ[LTRF)" },
-
-    { categoria: "destaques", arquivo: "fotos/operacao-kill-ltrf-integrante.png", data: "22/07/2026", descricao: "Abate de integrante da facção LTRF (madaraprsh[ltrf) na zona de guerra contra o tráfico" }
+    { categoria: "info", arquivoAntes: "fotos/info-antes-10-08.png", arquivoDepois: "fotos/info-antes-10-08.png", data: "10/08/2026", descricao: "Print de início da semana (10/08 a 15/08): Abates de Traficantes 438, Prisões efetuadas 476 — baseline para a próxima atualização" }
   ]
 };
