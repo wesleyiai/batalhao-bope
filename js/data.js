@@ -6,16 +6,16 @@
 
 const CONFIG = {
   // Nome do batalhão (aparece no topo do site)
-  batalhao: "BATALHÃO CHOQUE 1BTL",
+  batalhao: "BOPE",
 
   // Subtítulo (aparece embaixo do nome do batalhão)
-  subtitulo: "Painel de Metas Individuais",
+  subtitulo: "Painel de Metas — Fase de Teste",
 
   // Seu nome / patente (aparece no site)
   efetivo: "[GT]Wesley1BTL",
 
   // Sua patente (aparece destacada no crachá acima do nome)
-  patente: "SARGENTO",
+  patente: "ASPIRANTE (EM TESTE)",
 
   // -----------------------------------------------------------
   // SEMANA DA META
@@ -30,10 +30,13 @@ const CONFIG = {
   // Para atualizar seu progresso, troque apenas o número "atual".
   // Para mudar o objetivo, troque o número "meta".
   // -----------------------------------------------------------
+  // Metas de sugestão pra fase de teste do BOPE (mais exigentes que a
+  // média, já que é período de avaliação) — ajuste o "meta" quando
+  // souber os números oficiais exigidos.
   metas: [
-    { id: "abates", nome: "Abates de Traficantes", atual: 0, meta: 10, icone: "🎯" },
-    { id: "prisoes", nome: "Prisões", atual: 0, meta: 20, icone: "🚔" },
-    { id: "treinos", nome: "Treinos", atual: 0, meta: 15, icone: "🏋️" }
+    { id: "abates", nome: "Abates de Traficantes", atual: 0, meta: 15, icone: "🎯" },
+    { id: "prisoes", nome: "Prisões", atual: 0, meta: 30, icone: "🚔" },
+    { id: "treinos", nome: "Treinos", atual: 0, meta: 25, icone: "🏋️" }
   ],
 
   // -----------------------------------------------------------
@@ -68,6 +71,6 @@ const CONFIG = {
   //      { categoria: "info", arquivoAntes: "fotos/antes1.png", arquivoDepois: "fotos/depois1.png", data: "18/07/2026", descricao: "Comprovação de abates e prisões" },
   // -----------------------------------------------------------
   prints: [
-    { categoria: "info", arquivoAntes: "fotos/info-antes-10-08.png", arquivoDepois: "fotos/info-antes-10-08.png", data: "10/08/2026", descricao: "Print de início da semana (10/08 a 15/08): Abates de Traficantes 438, Prisões efetuadas 476 — baseline para a próxima atualização" }
+    { categoria: "info", arquivoAntes: "fotos/info-antes-10-08.png", arquivoDepois: "fotos/info-antes-10-08.png", data: "10/08/2026", descricao: "Print de início do teste no BOPE (10/08 a 15/08): Abates de Traficantes 438, Prisões efetuadas 476 — baseline para a próxima atualização" }
   ]
 };
