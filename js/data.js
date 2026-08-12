@@ -33,8 +33,8 @@ const CONFIG = {
   metas: [
     { id: "guerras", nome: "Guerras", atual: 0, meta: 3, icone: "⚔️" },
     { id: "abates", nome: "Abates (TRF)", atual: 0, meta: 50, icone: "🎯" },
-    { id: "treinos", nome: "Treinos", atual: 0, meta: 10, icone: "🏋️" },
-    { id: "prisoes", nome: "Prisões", atual: 0, meta: 15, icone: "🚔" }
+    { id: "treinos", nome: "Treinos", atual: 8, meta: 10, icone: "🏋️" },
+    { id: "prisoes", nome: "Prisões", atual: 5, meta: 15, icone: "🚔" }
   ],
 
   // -----------------------------------------------------------
@@ -69,5 +69,11 @@ const CONFIG = {
   //      { categoria: "info", arquivoAntes: "fotos/antes1.png", arquivoDepois: "fotos/depois1.png", data: "18/07/2026", descricao: "Comprovação de abates e prisões" },
   // -----------------------------------------------------------
   prints: [
+    { categoria: "info", arquivoAntes: "fotos/info-antes-11-08.png", arquivoDepois: "fotos/info-antes-11-08.png", data: "11/08/2026", descricao: "Baseline da semana (10/08–15/08) — Abates: 438, Prisões: 476" },
+    { categoria: "treinos", arquivo: "fotos/treino-11-08-1.png", data: "11/08/2026", descricao: "Treino #01 realizado" },
+    { categoria: "treinos", arquivo: "fotos/treino-11-08-2.png", data: "11/08/2026", descricao: "Treino #02 realizado" },
+    { categoria: "treinos", arquivo: "fotos/treino-11-08-3.png", data: "11/08/2026", descricao: "Treino #03 realizado" },
+    { categoria: "treinos", arquivo: "fotos/treino-bonus-11-08.png", data: "11/08/2026", descricao: "Bônus pós-treino: +5 treinos / +5 procurados presos" },
+    { categoria: "destaques", arquivo: "fotos/destaque-treino-11-08.png", data: "11/08/2026", descricao: "Destaque do treino (Wesley e Sasha)" }
   ]
 };
