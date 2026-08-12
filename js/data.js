@@ -30,13 +30,11 @@ const CONFIG = {
   // Para atualizar seu progresso, troque apenas o número "atual".
   // Para mudar o objetivo, troque o número "meta".
   // -----------------------------------------------------------
-  // Metas de sugestão pra fase de teste do BOPE (mais exigentes que a
-  // média, já que é período de avaliação) — ajuste o "meta" quando
-  // souber os números oficiais exigidos.
   metas: [
-    { id: "abates", nome: "Abates de Traficantes", atual: 0, meta: 15, icone: "🎯" },
-    { id: "prisoes", nome: "Prisões", atual: 0, meta: 30, icone: "🚔" },
-    { id: "treinos", nome: "Treinos", atual: 0, meta: 25, icone: "🏋️" }
+    { id: "guerras", nome: "Guerras", atual: 0, meta: 3, icone: "⚔️" },
+    { id: "abates", nome: "Abates (TRF)", atual: 0, meta: 50, icone: "🎯" },
+    { id: "treinos", nome: "Treinos", atual: 0, meta: 10, icone: "🏋️" },
+    { id: "prisoes", nome: "Prisões", atual: 0, meta: 15, icone: "🚔" }
   ],
 
   // -----------------------------------------------------------
