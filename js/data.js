@@ -31,7 +31,7 @@ const CONFIG = {
   // Para mudar o objetivo, troque o número "meta".
   // -----------------------------------------------------------
   metas: [
-    { id: "guerras", nome: "Guerras", atual: 0, meta: 3, icone: "⚔️" },
+    { id: "guerras", nome: "Guerras", atual: 0, meta: 2, icone: "⚔️" },
     { id: "abates", nome: "Abates (TRF)", atual: 91, meta: 50, icone: "🎯" },
     { id: "treinos", nome: "Treinos", atual: 14, meta: 10, icone: "🏋️" },
     { id: "prisoes", nome: "Prisões", atual: 21, meta: 15, icone: "🚔" }
