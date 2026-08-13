@@ -6,7 +6,7 @@
 
 const CONFIG = {
   // Nome do batalhão (aparece no topo do site)
-  batalhao: "BATALHÃO BOPE",
+  batalhao: "BATALHÃO BOPE 2BTL",
 
   // Subtítulo (aparece embaixo do nome do batalhão)
   subtitulo: "Painel de Metas — Fase de Teste",
